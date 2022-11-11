@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>業務時間記録</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+
+  <body>
+    <div class="outer">
+      <h1>　勤務開始時間と終了時間を記録しましょう。</h1>
+      <div>
+        <h2 class="status">non-buisiness hours...</h2>
+      </div>
+      <div class="action">
+        <div>
+          <button type="button" , class="start">Start</button>
+        </div>
+        <div>
+          <button type="button" , class="leave-start">Leave</button>
+        </div>
+        <div>
+          <button type="button" , class="leave-end">Back</button>
+        </div>
+        <div>
+          <button type="button" , class="end">End</button>
+        </div>
+      </div>
+      <div class="record">
+        <hr class="bar" />
+        <div>
+          <button type="button" , class="delete">delete ALL</button>
+        </div>
+        <ul class="list-group" id="list"></ul>
+        <hr class="bar" />
+      </div>
+    </div>
+  </body>
+</html>
