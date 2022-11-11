@@ -1,0 +1,131 @@
+.outer {
+  font-size: clamp(7px, 1.5vw, 20px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 80%;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.status {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: clamp(1px, 3vw, 50px);
+  border: 2px solid black;
+  background: grey;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.status-in {
+  background: yellow;
+}
+
+.status-leave {
+  background: green;
+}
+
+.bar {
+  border: none;
+  background-color: #fff;
+  width: 98%;
+  border-width: 1px 0 0 0;
+  border-top: double;
+  border-color: black;
+}
+
+.record {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.action {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: clamp(1px, 3vw, 30px);
+  background-color: darkorange;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  position: relative;
+}
+
+button:hover {
+  background-color: chocolate;
+}
+
+button:active {
+  transform: translate(0, 2px);
+}
+
+button.end {
+  background-color: deepskyblue;
+}
+
+button.end:hover {
+  background-color: dodgerblue;
+}
+
+button.leave-start {
+  background-color: darkviolet;
+}
+
+button.leave-start:hover {
+  background-color: purple;
+}
+
+button.leave-end {
+  background-color: limegreen;
+}
+
+button.leave-end:hover {
+  background-color: green;
+}
+
+button.delete {
+  background-color: orangered;
+  margin-left: 20px;
+  font-size: clamp(10px, 3vw, 25px);
+  padding: 5px 10px;
+}
+
+button.delete:hover {
+  background-color: red;
+}
+
+.list-items {
+  margin: 10px;
+  margin-left: 0px;
+  font-size: clamp(1px, 3vw, 30px);
+  list-style: none;
+}
+
+.list-bar {
+  text-align: left;
+  margin-left: 0px;
+  margin-right: 3%;
+}
+
+.leave-list-items {
+  font-size: clamp(1px, 3vw, 28px);
+  list-style-type: "└";
+  margin-left: 30px;
+}
